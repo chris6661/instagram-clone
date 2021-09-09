@@ -12,4 +12,4 @@ const { FieldValue } = Firebase.firestore;
 //call seed file only ONCE
 //seedDatabase(firebase); 
 
-export { firebase, FieldValue }; 
+export default { firebase, FieldValue }; 
